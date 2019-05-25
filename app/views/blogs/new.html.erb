@@ -1,0 +1,9 @@
+<div class="booyah-box col-10 offset-1">
+  <h1>Share your Idea's</h1>
+  <%= simple_form_for @blog do |f| %>
+     <%= f.input :tittle %>
+    <%= f.input :story %>
+    <br />
+    <%= f.submit 'Create', class: 'btn btn-primary' %>
+  <% end %>
+</div>
